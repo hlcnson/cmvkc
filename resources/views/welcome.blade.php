@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="stretched">
+<body class="stretched sticky-footer">
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -114,237 +114,271 @@
 
 		</header><!-- #header end -->
 
-		{{-- <section id="slider" class="slider-element slider-parallax force-full-screen full-screen">
+		<section id="page-title" class="page-title-parallax page-title-dark center" style="background-image: url('images/parallax/8.jpg'); background-size: cover; padding: 120px 0;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
 
-			<div class="slider-parallax-inner">
-
-				<div class="force-full-screen full-screen dark" style="background: url('images/slider/swiper/1.jpg') center center;">
-
-					<div class="container clearfix">
-						<div class="slider-caption slider-caption-center">
-							<h2 data-animate="fadeInDown">HỌC NGHỀ - LẬP NGHIỆP</h2>
-							<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="400">Lựa chọn học nghề là chọn một tương lai để sống và để phát triển sự nghiệp.<br/> Bạn sẽ chọn nghề gì cho tương lai và sự nghiệp của mình?</p>
-						</div>
-					</div>
-
-				</div>
-
+			<div class="container clearfix">
+				<h1>TRƯỜNG CAO ĐẲNG NGHỀ<br/>VIỆT NAM - HÀN QUỐC CÀ MAU</h1>
+				
 			</div>
 
-		</section> --}}
-
-		<section id="slider" class="slider-element slider-parallax" style="background: url('images/slider/swiper/1.jpg') center center; background-size: cover" data-height-xl="600" data-height-lg="500" data-height-md="400" data-height-sm="300" data-height-xs="250">
-			<div class="slider-parallax-inner">
-
-				<div class="container clearfix">
-					<div class="vertical-middle dark center">
-						<h1 class="display-4 font-weight-bold">HỌC NGHỀ - LẬP NGHIỆP</h1>
-						<p class="d-none d-sm-block subtitle" data-animate="fadeInUp" data-delay="400">Lựa chọn học nghề là chọn một tương lai để sống và để phát triển sự nghiệp.<br/> Bạn sẽ chọn nghề gì cho tương lai và sự nghiệp của mình?</p>
-						
-
-						<a href="#" class="button button-border button-light button-rounded button-reveal tright button-large topmargin d-none d-md-inline-block"><i class="icon-angle-right"></i><span>Start Tour</span></a>
-
-					</div>
-				</div>
-			</div>
-		</section>
+		</section><!-- #page-title end -->
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
-
-				<div class="container clearfix">
-
-					<p><span class="dropcap">F</span>oster best practices effectiveness inspire breakthroughs solve immunize turmoil. Policy dialogue peaceful The Elders rural global support. Process inclusive innovate readiness, public sector complexity. Lifting people up cornerstone partner, technology working families civic engagement activist recognize potential global network. Countries tackling solution respond change-makers tackle. Assistance, giving; fight against malnutrition experience in the field lasting change scalable. Empowerment long-term, fairness policy community progress social responsibility; Cesar Chavez recognition. Expanding community ownership visionary indicator pursue these aspirations accessibility. Achieve; worldwide, life-saving initiative facilitate. New approaches, John Lennon humanitarian relief fundraise vaccine Jane Jacobs community health workers Oxfam. Our ambitions informal economies.</p>
-
-					<blockquote class="topmargin bottommargin">
-						<p>Human rights healthcare immunize; advancement grantees. Medical supplies; meaningful, truth technology catalytic effect. Promising development capacity building international enable poverty.</p>
-					</blockquote>
-
-					<div class="col_half nobottommargin">
-
-						<p>Provide, Aga Khan, interconnectivity governance fairness replicable, new approaches visionary implementation. End hunger evolution, future promising development youth. Public sector, small-scale farmers; harness facilitate gender. Contribution dedicated global change movements, prosperity accelerate progress citizens of change. Elevate; accelerate reduce child mortality; billionaire philanthropy fluctuation, plumpy'nut care opportunity catalyze. Partner deep.</p>
-
+			<div class="content-wrap notoppadding nobottompadding">
+				<div class="section notopborder nomargin nobottompadding">
+					<div class="container clearfix">
+						<div class="heading-block topmargin-sm center">
+							<h2><span>THÔNG BÁO TUYỂN SINH HỆ CHÍNH QUI</span></h2>
+							<span><strong>Năm học 2018 - 2019</strong></span>
+						</div>
 					</div>
+				</div>
+				<div class="row clearfix common-height">
+					<div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
+						<img data-animate="fadeIn" class="aligncenter" src="images/multi.png" alt="">
+					</div>
+					<div class="col-lg-6 col-padding" style="background-color: #F5F5F5;">
+						<div>
+							<div class="heading-block center nobottommargin">
+								<h2>CAO ĐẲNG NGHỀ - KHÓA 4</h2>
+								<span><strong>Đối tượng xét tuyển: THPT hoặc tương đương</span>
+								<h4><strong style="color: red;">Xét tuyển hồ sơ</strong> các nghề</h4>
+							</div>
+							<ul class="iconlist iconlist-large iconlist-color">
+								<li><i class="icon-ok-sign"></i> CƠ ĐIỆN TỬ</li>
+								<li><i class="icon-ok-sign"></i> ĐIỆN CÔNG NGHIỆP</li>
+								<li><i class="icon-ok-sign"></i> CÔNG NGHỆ Ô TÔ</li>
+								<li><i class="icon-ok-sign"></i> CÔNG NGHỆ THÔNG TIN</li>
+								<li><i class="icon-ok-sign"></i> KỸ THUẬT MÁY LẠNH VÀ ĐIỀU HÒA KHÔNG KHÍ</li>
+							</ul>
+							<br>
+							<div class="heading-block center nobottommargin">
+								<h2>TRUNG CẤP NGHỀ - KHÓA 16</h2>
+								<span><strong>Đối tượng xét tuyển: THCS trở lên</span>
+									<h4><strong style="color: red;">Xét tuyển hồ sơ</strong> các nghề</h4>
+							</div>
+							<ul class="iconlist iconlist-large iconlist-color">
+								
+								<li><i class="icon-ok-sign"></i> ĐIỆN CÔNG NGHIỆP</li>
+								<li><i class="icon-ok-sign"></i> KỸ THUẬT SỬA CHỮA LẮP RÁP MÁY TÍNH</li>
+								<li><i class="icon-ok-sign"></i> VẬN HÀNH, SỬA CHỮA THIÊT BỊ LẠNH</li>
+								
+								
+							</ul>
+						</div>
+					</div>
+				</div>
 
-					<div class="col_half nobottommargin col_last">
+				<div class="section dark notopmargin nobottommargin" style="background-color: #686de0;">
+				
+					<div class="container clearfix">
 
-						<p>Frontline harness criteria governance freedom contribution. Campaign Angelina Jolie natural resources, Rockefeller peaceful philanthropy human potential. Justice; outcomes reduce carbon emissions nonviolent resistance human being. Solve innovate aid communities; benefit truth rural development UNICEF meaningful work. Generosity Action Against Hunger relief; many voices impact crisis situation poverty pride. Vaccine carbon.</p>
+						<div class="heading-block center">
+							<h2>QUYỀN LỢI CỦA HỌC SINH, SINH VIÊN</h2>
+							{{-- <span>Dự án xây dựng Trường cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau được thực hiện trên cơ sở tư vấn của các chuyên gia Hàn Quốc</span> --}}
+						</div>
 
+						<div class="col_full">
+
+							<img data-animate="fadeIn" class="aligncenter" src="images/student.png" alt="Macbook">
+
+						</div>
+
+						<div class="col_one_third ">
+
+							<div class="feature-box fbox-plain" style="color:#fff;">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+								</div>
+								<h3 style="color:#fff;">HỌC TRƯỜNG CÔNG LẬP</h3>
+								<p style="color:#fff; font-weight: 400;">Học sinh, sinh viên sẽ được hưởng các chính sách chung về giáo dục và đào tạo nghề.</p>
+							</div>
+
+						</div>
+
+						<div class="col_one_third ">
+
+							<div class="feature-box fbox-plain" style="color:#fff;">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+								</div>
+								<h3 style="color:#fff;">BẰNG CẤP CHÍNH QUI</h3>
+								<p style="color:#fff; font-weight: 400;">Người học nghề được cấp bằng chính qui sau khi tốt nghiệp chương trình đào tạo.</p>
+							</div>
+
+						</div>
+
+						<div class="col_one_third  col_last">
+
+							<div class="feature-box fbox-plain" style="color:#fff;">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+								</div>
+								<h3 style="color:#fff;">CHÍNH SÁCH HỌC PHÍ</h3>
+								<p style="color:#fff; font-weight: 400;">Mức học phí được thu theo qui định của Nhà nước, phù hợp cho người học nghề không có nhiều điều kiện tài chính.</p>
+							</div>
+
+						</div>
+	
+						<div class="clear"></div>
+						<div class="col_one_third nobottommargin">
+
+							<div class="feature-box fbox-plain" style="color:#fff;">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+								</div>
+								<h3 style="color:#fff;">CÓ TAY NGHỀ SAU KHI RA TRƯỜNG</h3>
+								<p style="color:#fff; font-weight: 400;">Học sinh, sinh viên được chú trọng đào tạo kỹ năng thực hành nghề trong quá trình học tập tại trường.</p>
+							</div>
+
+						</div>
+
+						<div class="col_one_third nobottommargin">
+
+							<div class="feature-box fbox-plain" style="color:#fff;">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+								</div>
+								<h3 style="color:#fff;">THIẾT BỊ DẠY NGHỀ HIỆN ĐẠI</h3>
+								<p style="color:#fff; font-weight: 400;">Thiết bị dùng cho giảng dạy thực hành nghề hiện đại, đạt tiêu chuẩn của Hàn Quốc.</p>
+							</div>
+
+						</div>
+
+						<div class="col_one_third nobottommargin col_last">
+
+							<div class="feature-box fbox-plain" style="color:#fff;">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+								</div>
+								<h3 style="color:#fff;">MIỄN HỌC PHÍ CHO HỌC SINH THCS</h3>
+								<p style="color:#fff; font-weight: 400;">Đối tượng học sinh tốt nghiệp trung học cơ sở được miễn học phí đào tạo trung cấp nghề.</p>
+							</div>
+
+						</div>
 					</div>
 
 				</div>
 
+				
+				<div class="container clearfix topmargin">
+
+					<div id="section-home" class="heading-block title-center nobottomborder page-section">
+						<h2>LIÊN HỆ</h2>
+					</div>
+					<div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+					<div class="clear"></div>
+
+					<div class="col_one_third topmargin nobottommargin">
+
+						<h3>Short Overview.</h3>
+
+						<p style="font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
+
+						<div class="divider divider-short"><i class="icon-circle"></i></div>
+						<h3>Short Overview.</h3>
+						<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
+							<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
+							<li><i class="icon-ok-sign"></i> Valid HTML5 &amp; CSS3 Semantics</li>
+							<li><i class="icon-ok-sign"></i> 100% Open Source &amp; Customizable</li>
+							<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
+							<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
+							<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
+						</ul>
+
+					</div>
+
+					<div class="col_two_third topmargin nobottommargin col_last">
+
+						<img src="images/map.png" alt="Macbook Video Underlay" style="width: auto;">
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+				<div class="section parallax notopmargin nobottommargin dark" style="background: url('images/parallax/9.jpg') center center; background-size:cover; padding: 100px 0;" data-stellar-background-ratio="0.3">
+					<div class="container clearfix">
+
+					<div class="container clearfix">
+
+						<div id="section-testimonials" class="heading-block title-center page-section">
+							<h2>CẢM NHẬN CỦA SINH VIÊN</h2>
+							<span>Cựu học sinh, sinh viên cảm nhận về Trường Cao đẳng nghề Việt Nam - Hàn Quốc Cà Mau</span>
+						</div>
+
+						<ul class="testimonials-grid clearfix">
+							<li>
+								<div class="testimonial">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/di.png" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau là trường đào tạo nghề tốt nhất tại Cà Mau với hệ thống thiết bị thực hành hiện đại, phong phú về chủng loại để học sinh, sinh viên thực hành. Đội ngũ giáo viên tâm huyết, giỏi lý thuyết, có tay nghề cao và chỉ dạy tận tình. Khi các bạn giỏi nghề thì không bao giờ sợ thất nghiệp
+										</p>
+										<div class="testi-meta">
+											Hồ Văn Dị
+											<span>Nhân viên Xây dựng – Bảo trì, Công ty CP Thế giới di động</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/nguyen.png" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Đối với em, Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau có cơ sở vật chất, thiết bị thực hành phục vụ cho giảng dạy rất tốt và luôn được cập nhật phù hợp với thời đại. Giáo viên tận tâm truyền đạt kiến thức và nhà trường cũng có nhiều phong trào sôi nổi cho học sinh, sinh viên. Sau khi tốt nghiệp nghề Điện công nghiệp năm 2013, mình đã có việc làm với mức lương ổn định, phù hợp với chuyên môn.</p>
+										<div class="testi-meta">
+											Phan Văn Nguyên
+											<span>Tổ trưởng Bộ phận Sản xuất, kiêm Chủ tịch công đoàn Công ty TA HSING Electric wire and cable Việt Nam</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/teo.png" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau là trường dạy nghề mình yêu thích. Nhà trường có cơ sở vật chất hiện đại, đáp ứng tốt nhu cầu học tập của học sinh, sinh viên. Giáo viên tận tâm và có trình độ cao. Lời khuyên cho các bạn đi sau: Đã học nghề thì phải học hành nghiêm chỉnh, yêu nghề và tâm huyết với nghề.</p>
+										<div class="testi-meta">
+											Thái Văn Tèo
+											<span>Ca phó Tổ Cơ điện – Chi nhánh phân xưởng bóc nỏn tôm Hòa Thành, Công ty CP Chế biến và Dịch vụ thủy sản Cà Mau</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/trang.png" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Nhà trường có môi trường học tập rất tốt, cở sở vật chất và chất lượng đào tạo rất tốt, là một nơi vừa học vừa thực hành sát với thực tế, với những tiết học thực hành có chất lượng. Thầy cô rất nhiệt tình và thân thiện với học sinh, sinh viên.</p>
+										<div class="testi-meta">
+											Nguyễn Quốc Trạng
+											<span>Nhân viên Công ty TNHH Phương Nam</span>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
 			</div>
 
 		</section><!-- #content end -->
 
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
-
-					<div class="col_two_third">
-
-						<div class="col_one_third">
-
-							<div class="widget clearfix">
-
-								<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
-
-								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-
-								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-									<address>
-										<strong>Headquarters:</strong><br>
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
-									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="col_one_third">
-
-							<div class="widget widget_links clearfix">
-
-								<h4>Blogroll</h4>
-
-								<ul>
-									<li><a href="http://codex.wordpress.org/">Documentation</a></li>
-									<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-									<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-									<li><a href="http://wordpress.org/support/">Support Forums</a></li>
-									<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-									<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-									<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
-								</ul>
-
-							</div>
-
-						</div>
-
-						<div class="col_one_third col_last">
-
-							<div class="widget clearfix">
-								<h4>Recent Posts</h4>
-
-								<div id="post-list-footer">
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="col_one_third col_last">
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-lg-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Total Downloads</h5>
-								</div>
-
-								<div class="col-lg-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Clients</h5>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="widget subscribe-widget clearfix">
-							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-							<div class="widget-subscribe-form-result"></div>
-							<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
-								<div class="input-group divcenter">
-									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="icon-email2"></i></div>
-									</div>
-									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-									<div class="input-group-append">
-										<button class="btn btn-success" type="submit">Subscribe</button>
-									</div>
-								</div>
-							</form>
-						</div>
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-lg-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-								</div>
-								<div class="col-lg-6 clearfix">
-									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
+		<footer id="footer">
 
 			<!-- Copyrights
 			============================================= -->
@@ -353,56 +387,63 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						{{-- <img src="images/logo.png" alt="Footer Logo" class="footer-logo"> --}}
+						<div>
+							<strong>TRƯỜNG CAO ĐẲNG NGHỀ VIỆT NAM - HÀN QUỐC CÀ MAU</strong>	
+							<div>Địa chỉ: 
+								<address>
+									Số 08 Mậu Thân, khóm 6, phường 9, thành phố Cà Mau, tỉnh Cà Mau <br/>
+									Điện thoại: 0290 3 592 101
+								</address>
+							</div>
+						</div>
 					</div>
 
 					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-github">
-								<i class="icon-github"></i>
-								<i class="icon-github"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-yahoo">
-								<i class="icon-yahoo"></i>
-								<i class="icon-yahoo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
+						<div class="copyrights-menu copyright-links fright clearfix">
+							<a href="#">Trang chủ</a>/<a href="#">Tin tức</a>/<a href="#">Thời khóa biểu</a>/<a href="#">Tuyển sinh</a>
 						</div>
+						{{-- <div class="fright clearfix">
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
 
-						<div class="clear"></div>
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
 
-						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div> --}}
 					</div>
 
 				</div>
