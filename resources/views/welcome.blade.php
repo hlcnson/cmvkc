@@ -22,7 +22,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Logo Changer | Canvas</title>
+	<title>CMVKC</title>
 
 </head>
 
@@ -57,7 +57,7 @@
 							<li class="current"><a href="#"><div>Trang chủ</div></a></li>
 							<li><a href="#"><div>Tin tức</div></a></li>
 							<li><a href="#"><div>Thời khóa biểu</div></a></li>
-							<li><a href="#"><div>Tuyển sinh</div></a></li>
+							<li><a href="{{ route('selecting') }}"><div>Tuyển sinh</div></a></li>
 						</ul>
 
 						<!-- Top Cart
@@ -95,7 +95,8 @@
 									<button class="button button-3d button-small nomargin fright">View Cart</button>
 								</div>
 							</div>
-						</div><!-- #top-cart end --> --}}
+						</div> --}}
+						<!-- #top-cart end -->
 
 						<!-- Top Search
 						============================================= -->
@@ -104,7 +105,8 @@
 							<form action="search.html" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
-						</div><!-- #top-search end --> --}}
+						</div> --}}
+						<!-- #top-search end -->
 
 					</nav><!-- #primary-menu end -->
 
@@ -114,220 +116,119 @@
 
 		</header><!-- #header end -->
 
-		<section id="page-title" class="page-title-parallax page-title-dark center" style="background-image: url('images/parallax/8.jpg'); background-size: cover; padding: 120px 0;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
+		<section id="slider" class="slider-element slider-parallax" style="background: url('images/slider/swiper/1.jpg') center center; background-size: cover" data-height-xl="600" data-height-lg="500" data-height-md="400" data-height-sm="300" data-height-xs="250">
+			<div class="slider-parallax-inner">
 
-			<div class="container clearfix">
-				<h1>TRƯỜNG CAO ĐẲNG NGHỀ<br/>VIỆT NAM - HÀN QUỐC CÀ MAU</h1>
-				
+				<div class="container clearfix">
+					<div class="vertical-middle dark center">
+						<h1 class="display-4 font-weight-bold">HỌC NGHỀ - LẬP NGHIỆP</h1>
+						<p class="d-none d-sm-block subtitle" data-animate="fadeInUp" data-delay="400">Lựa chọn học nghề là chọn một tương lai để sống và để phát triển sự nghiệp.<br/> Bạn sẽ chọn nghề gì cho tương lai và sự nghiệp của mình?</p>
+						
+
+						<a href="{{ route('selecting') }}" class="button button-border button-light button-rounded button-reveal tright button-large topmargin d-none d-md-inline-block"><i class="icon-angle-right"></i><span>Tìm hiểu ngay</span></a>
+
+					</div>
+				</div>
 			</div>
-
-		</section><!-- #page-title end -->
+		</section>
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
 			<div class="content-wrap notoppadding nobottompadding">
-				<div class="section notopborder nomargin nobottompadding" style="background-color: #fff;">
+				<a href="{{ route('selecting') }}" class="button button-full center tright">
 					<div class="container clearfix">
-						<div class="heading-block topmargin-sm center">
-							<h2><span>THÔNG BÁO TUYỂN SINH HỆ CHÍNH QUI</span></h2>
-							<span><strong>Năm học 2018 - 2019</strong></span>
-						</div>
+						Tuyển sinh đào tạo nghề chính qui năm 2018 | <strong>Xem ngay</strong> <i class="icon-caret-right" style="top:4px;"></i>
 					</div>
-				</div>
+				</a>
 				<div class="row clearfix common-height">
-					<div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
-						<img data-animate="fadeIn" class="aligncenter" src="images/multi.png" alt="">
+
+					<div class="col-lg-6 center col-padding" style="background: url('images/learning.png') center center no-repeat; background-size: cover;">
+						<div>&nbsp;</div>
 					</div>
-					<div class="col-lg-6 col-padding" style="background-color: #F5F5F5;">
+
+					<div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
 						<div>
-							<div class="heading-block center nobottommargin">
-								<h2>CAO ĐẲNG NGHỀ - KHÓA 4</h2>
-								<span><strong>Đối tượng xét tuyển: THPT hoặc tương đương</span>
-								<h4><strong style="color: red;">Xét tuyển hồ sơ</strong> các nghề</h4>
+							<div class="heading-block">
+								<h2>NƠI BẠN BẮT ĐẦU <span>SỰ NGHIỆP</span></h2>
+								<span>Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau</span>
 							</div>
-							<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
-								<li><i class="icon-ok-sign"></i> CƠ ĐIỆN TỬ</li>
-								<li><i class="icon-ok-sign"></i> ĐIỆN CÔNG NGHIỆP</li>
-								<li><i class="icon-ok-sign"></i> CÔNG NGHỆ Ô TÔ</li>
-								<li><i class="icon-ok-sign"></i> CÔNG NGHỆ THÔNG TIN</li>
-								<li><i class="icon-ok-sign"></i> KỸ THUẬT MÁY LẠNH VÀ ĐIỀU HÒA KHÔNG KHÍ</li>
-							</ul>
-							<br>
-							<div class="heading-block center nobottommargin">
-								<h2>TRUNG CẤP NGHỀ - KHÓA 16</h2>
-								<span><strong>Đối tượng xét tuyển: THCS trở lên</span>
-									<h4><strong style="color: red;">Xét tuyển hồ sơ</strong> các nghề</h4>
-							</div>
-							<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
-								
-								<li><i class="icon-ok-sign"></i> ĐIỆN CÔNG NGHIỆP</li>
-								<li><i class="icon-ok-sign"></i> KỸ THUẬT SỬA CHỮA LẮP RÁP MÁY TÍNH</li>
-								<li><i class="icon-ok-sign"></i> VẬN HÀNH, SỬA CHỮA THIÊT BỊ LẠNH</li>
-								
-								
-							</ul>
+
+							<p><strong>Trường Cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau</strong> là một trong năm trường dạy nghề trọng điểm cấp quốc gia được Chính phủ Việt Nam chấp thuận đầu tư xây dựng từ năm 2005 bằng nguồn vốn ODA của Chính phủ Hàn Quốc. Nhà trường chính thức thực hiện các hoạt động đào tạo từ năm 2015 trên cơ sở kế thừa các thành quả của Trường Trung cấp nghề tỉnh Cà Mau.</p>
 						</div>
 					</div>
+
+				</div>
+				
+				
+				{{-- <div class="section notopmargin nobottommargin parallax">
+					<div class="container clearfix">
+						<div class="heading-block center">
+							<h2>PHƯƠNG CHÂM ĐÀO TẠO</h2>
+							<span>Cô đọng kiến thức, chú trọng kỹ năng</span>
+						</div>
+						<p class="divcenter center" style="max-width: 800px;">Chương trình đào tạo được thiết kế với nội dung kiến thức cô đọng, tập trung phần lớn thời lượng cho giảng dạy thực hành và phát triển kỹ năng nghề cũng như đạo đức, tác phong nghề nghiệp cho học sinh, sinh viên. Vì vậy, trong thời gian học tập tại trường học sinh, sinh viên có đủ thời gian để rèn luyện kỹ năng vững vàng, tạo tiền đề vững chắc cho nghề nghiệp sau khi ra trường.</p>
+						<div class="clear"></div>
+					</div>
+				</div> --}}
+				<div class="section parallax dark notopmargin nobottommargin" style="background-image: url('images/parallax/2.jpg'); background-size: cover; padding: 100px 0;" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -100px;">
+					<div class="heading-block center">
+						<h2>PHƯƠNG CHÂM ĐÀO TẠO</h2>
+						<span>Cô đọng kiến thức, chú trọng kỹ năng</span>
+					</div>
+					<p class="divcenter center" style="max-width: 800px;">Chương trình đào tạo được thiết kế với nội dung kiến thức cô đọng, tập trung phần lớn thời lượng cho giảng dạy thực hành và phát triển kỹ năng nghề cũng như đạo đức, tác phong nghề nghiệp cho học sinh, sinh viên. Vì vậy, trong thời gian học tập tại trường học sinh, sinh viên có đủ thời gian để rèn luyện kỹ năng vững vàng, tạo tiền đề vững chắc cho nghề nghiệp sau khi ra trường.</p>
+						<div class="clear"></div>
 				</div>
 
-				<div class="section dark notopmargin nobottommargin" style="background-color: #686de0;">
-				
+				<div class="section notopmargin nobottommargin">
+
 					<div class="container clearfix">
 
 						<div class="heading-block center">
-							<h2>QUYỀN LỢI CỦA HỌC SINH, SINH VIÊN</h2>
-							{{-- <span>Dự án xây dựng Trường cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau được thực hiện trên cơ sở tư vấn của các chuyên gia Hàn Quốc</span> --}}
+							<h2>NĂNG LỰC DẠY NGHỀ</h2>
+							<span>Dự án xây dựng Trường cao đẳng nghề Việt Nam – Hàn Quốc Cà Mau được thực hiện trên cơ sở tư vấn của các chuyên gia Hàn Quốc</span>
 						</div>
 
 						<div class="col_full">
 
-							<img data-animate="fadeIn" class="aligncenter" src="images/student.png" alt="Macbook">
+							<img data-animate="fadeIn" class="aligncenter" src="images/student.png" alt="">
 
 						</div>
 
-						<div class="col_one_third ">
-
-							<div class="feature-box fbox-plain" style="color:#fff;">
-								<div class="fbox-icon">
-									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+						<div class="col_one_third">
+							<div class="feature-box fbox-plain">
+								<div class="fbox-icon" data-animate="bounceIn">
+									<a href="#"><img src="images/icons/teacher.png" alt="Responsive Layout"></a>
 								</div>
-								<h3 style="color:#fff;">HỌC TRƯỜNG CÔNG LẬP</h3>
-								<p style="color:#fff; font-weight: 400;">Học sinh, sinh viên sẽ được hưởng các chính sách chung về giáo dục và đào tạo nghề.</p>
+								<h3>Giáo viên</h3>
+								<p>Đội ngũ giáo viên có nhiều kinh nghiệm trong đào tạo nghề, được tập huấn bài bản qua các khóa đào tạo trong nước và tại Hàn Quốc.</p>
 							</div>
-
 						</div>
-
-						<div class="col_one_third ">
-
-							<div class="feature-box fbox-plain" style="color:#fff;">
-								<div class="fbox-icon">
-									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+	
+						<div class="col_one_third">
+							<div class="feature-box fbox-plain">
+								<div class="fbox-icon" data-animate="bounceIn" data-delay="200">
+									<a href="#"><img src="images/icons/device.png" alt="Retina Graphics"></a>
 								</div>
-								<h3 style="color:#fff;">BẰNG CẤP CHÍNH QUI</h3>
-								<p style="color:#fff; font-weight: 400;">Người học nghề được cấp bằng chính qui sau khi tốt nghiệp chương trình đào tạo.</p>
+								<h3>Thiết bị</h3>
+								<p>Thiết bị, nhà xưởng thực hành, thư viện, chương trình, giáo trình đào tạo được đầu tư xây dựng đạt tiêu chuẩn với sự tư vấn của các chuyên gia Hàn Quốc.</p>
 							</div>
-
 						</div>
-
-						<div class="col_one_third  col_last">
-
-							<div class="feature-box fbox-plain" style="color:#fff;">
-								<div class="fbox-icon">
-									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
+	
+						<div class="col_one_third col_last">
+							<div class="feature-box fbox-plain">
+								<div class="fbox-icon" data-animate="bounceIn" data-delay="400">
+									<a href="#"><img src="images/icons/envi.png" alt="Powerful Performance"></a>
 								</div>
-								<h3 style="color:#fff;">CHÍNH SÁCH HỌC PHÍ</h3>
-								<p style="color:#fff; font-weight: 400;">Mức học phí được thu theo qui định của Nhà nước, phù hợp cho người học nghề không có nhiều điều kiện tài chính.</p>
+								<h3>MÔI TRƯỜNG</h3>
+								<p>Học sinh, sinh viên được tạo mọi điều kiện thuận lợi nhất để học tập, vui chơi. Thường xuyên có các phong trào đoàn thể mang tính cộng đồng cao.</p>
 							</div>
-
 						</div>
 	
 						<div class="clear"></div>
-						<div class="col_one_third nobottommargin">
-
-							<div class="feature-box fbox-plain" style="color:#fff;">
-								<div class="fbox-icon">
-									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
-								</div>
-								<h3 style="color:#fff;">CÓ TAY NGHỀ SAU KHI RA TRƯỜNG</h3>
-								<p style="color:#fff; font-weight: 400;">Học sinh, sinh viên được chú trọng đào tạo kỹ năng thực hành nghề trong quá trình học tập tại trường.</p>
-							</div>
-
-						</div>
-
-						<div class="col_one_third nobottommargin">
-
-							<div class="feature-box fbox-plain" style="color:#fff;">
-								<div class="fbox-icon">
-									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
-								</div>
-								<h3 style="color:#fff;">THIẾT BỊ DẠY NGHỀ HIỆN ĐẠI</h3>
-								<p style="color:#fff; font-weight: 400;">Thiết bị dùng cho giảng dạy thực hành nghề hiện đại, đạt tiêu chuẩn của Hàn Quốc.</p>
-							</div>
-
-						</div>
-
-						<div class="col_one_third nobottommargin col_last">
-
-							<div class="feature-box fbox-plain" style="color:#fff;">
-								<div class="fbox-icon">
-									<a href="#"><i class="i-alt"><i class="icon-gift" style="color:#fff;"></i></i></a>
-								</div>
-								<h3 style="color:#fff;">MIỄN HỌC PHÍ CHO HỌC SINH THCS</h3>
-								<p style="color:#fff; font-weight: 400;">Đối tượng học sinh tốt nghiệp trung học cơ sở được miễn học phí đào tạo trung cấp nghề.</p>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-
-				
-				<div class="container clearfix topmargin">
-
-					<div id="section-home" class="heading-block title-center nobottomborder page-section">
-						<h2>THÔNG TIN</h2>
-					</div>
-					<div class="divider divider-short divider-center nobottommargin"><i class="icon-circle"></i></div>
-					<div class="clear"></div>
-
-					<div class="col_half topmargin nobottommargin">
-
-						<h3>LIÊN HỆ</h3>
-
-						<p>TRƯỜNG CAO ĐẲNG NGHỀ VIỆT NAM - HÀN QUỐC CÀ MAU</p>
-						
-						<div style="background: url('images/world-map.png') no-repeat center center; background-size: cover; font-weight: 400;">
-							<address>
-								<strong>Địa chỉ:</strong><br>
-								Số 08, Mậu Thân, khóm 6, phường 9, thành phố Cà Mau, tỉnh Cà Mau
-							</address>
-							<abbr title="Số điện thoại"><strong>Điện thoại:</strong></abbr> 02903 592 101<br>
-							{{-- <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br> --}}
-							<abbr title="Website"><strong>Website:</strong></abbr> www.camauvkc.edu.vn
-						</div>
-						
-
-
-						<div class="divider divider-short divider-rounded divider-center"><i class="icon-pencil"></i></div>
-						<h3>THỜI GIAN VÀ ĐỊA ĐIỂM</h3>
-						<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
-							<li>
-								<i class="icon-ok-sign"></i> Nhận hồ sơ: 
-								<ul>
-									<li>Đợt 1: Đến hết tháng 7 năm 2018</li>
-									<li>Đợt 2: Đến hết tháng 9 năm 2018</li>
-								</ul>
-							</li>
-							<li>
-								<i class="icon-ok-sign"></i> Nhập học
-								<ul>
-									<li>Đợt 1: Tháng 8/2018</li>
-									<li>Đợt 2: Tháng 10/2018</li>
-								</ul>
-							</li>
-							<li><i class="icon-ok-sign"></i> Địa điểm nhận hồ sơ:
-								<div style="background: url('images/world-map.png') no-repeat center center; background-size: cover; font-weight: 400;">
-									<address>
-										<strong>Phòng Đào tạo - Trường Cao đẳng nghề Việt Nam - Hàn Quốc Cà Mau</strong> <br>
-										Số 08, Mậu Thân, khóm 6, phường 9, thành phố Cà Mau, tỉnh Cà Mau
-									</address>
-									<abbr title="Số điện thoại"><strong>Điện thoại:</strong></abbr> 02903 592 101<br>
-								</div>
-							</li>
-							
-						</ul>
 
 					</div>
-
-					<div class="col_half topmargin nobottommargin col_last">
-
-						<img src="images/map.png" alt="Bản đồ" style="width: auto;">
-						
-					</div>
-
-					<div class="clear"></div>
 
 				</div>
 
@@ -404,6 +305,8 @@
 					</div>
 
 				</div>
+
+				
 			</div>
 
 		</section><!-- #content end -->
