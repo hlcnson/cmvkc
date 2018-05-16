@@ -62,7 +62,7 @@
 
 						<!-- Top Cart
 						============================================= -->
-						<div id="top-cart">
+						{{-- <div id="top-cart">
 							<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
 							<div class="top-cart-content">
 								<div class="top-cart-title">
@@ -95,16 +95,16 @@
 									<button class="button button-3d button-small nomargin fright">View Cart</button>
 								</div>
 							</div>
-						</div><!-- #top-cart end -->
+						</div><!-- #top-cart end --> --}}
 
 						<!-- Top Search
 						============================================= -->
-						<div id="top-search">
+						{{-- <div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 							<form action="search.html" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
-						</div><!-- #top-search end -->
+						</div><!-- #top-search end --> --}}
 
 					</nav><!-- #primary-menu end -->
 
@@ -128,7 +128,7 @@
 		<section id="content">
 
 			<div class="content-wrap notoppadding nobottompadding">
-				<div class="section notopborder nomargin nobottompadding">
+				<div class="section notopborder nomargin nobottompadding" style="background-color: #fff;">
 					<div class="container clearfix">
 						<div class="heading-block topmargin-sm center">
 							<h2><span>THÔNG BÁO TUYỂN SINH HỆ CHÍNH QUI</span></h2>
@@ -147,7 +147,7 @@
 								<span><strong>Đối tượng xét tuyển: THPT hoặc tương đương</span>
 								<h4><strong style="color: red;">Xét tuyển hồ sơ</strong> các nghề</h4>
 							</div>
-							<ul class="iconlist iconlist-large iconlist-color">
+							<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
 								<li><i class="icon-ok-sign"></i> CƠ ĐIỆN TỬ</li>
 								<li><i class="icon-ok-sign"></i> ĐIỆN CÔNG NGHIỆP</li>
 								<li><i class="icon-ok-sign"></i> CÔNG NGHỆ Ô TÔ</li>
@@ -160,7 +160,7 @@
 								<span><strong>Đối tượng xét tuyển: THCS trở lên</span>
 									<h4><strong style="color: red;">Xét tuyển hồ sơ</strong> các nghề</h4>
 							</div>
-							<ul class="iconlist iconlist-large iconlist-color">
+							<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
 								
 								<li><i class="icon-ok-sign"></i> ĐIỆN CÔNG NGHIỆP</li>
 								<li><i class="icon-ok-sign"></i> KỸ THUẬT SỬA CHỮA LẮP RÁP MÁY TÍNH</li>
@@ -267,34 +267,64 @@
 				<div class="container clearfix topmargin">
 
 					<div id="section-home" class="heading-block title-center nobottomborder page-section">
-						<h2>LIÊN HỆ</h2>
+						<h2>THÔNG TIN</h2>
 					</div>
-					<div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+					<div class="divider divider-short divider-center nobottommargin"><i class="icon-circle"></i></div>
 					<div class="clear"></div>
 
-					<div class="col_one_third topmargin nobottommargin">
+					<div class="col_half topmargin nobottommargin">
 
-						<h3>Short Overview.</h3>
+						<h3>LIÊN HỆ</h3>
 
-						<p style="font-weight: 400;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
+						<p>TRƯỜNG CAO ĐẲNG NGHỀ VIỆT NAM - HÀN QUỐC CÀ MAU</p>
+						
+						<div style="background: url('images/world-map.png') no-repeat center center; background-size: cover; font-weight: 400;">
+							<address>
+								<strong>Địa chỉ:</strong><br>
+								Số 08, Mậu Thân, khóm 6, phường 9, thành phố Cà Mau, tỉnh Cà Mau
+							</address>
+							<abbr title="Số điện thoại"><strong>Điện thoại:</strong></abbr> 02903 592 101<br>
+							{{-- <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br> --}}
+							<abbr title="Website"><strong>Website:</strong></abbr> www.camauvkc.edu.vn
+						</div>
+						
 
-						<div class="divider divider-short"><i class="icon-circle"></i></div>
-						<h3>Short Overview.</h3>
+
+						<div class="divider divider-short divider-rounded divider-center"><i class="icon-pencil"></i></div>
+						<h3>THỜI GIAN VÀ ĐỊA ĐIỂM</h3>
 						<ul class="iconlist iconlist-large iconlist-color" style="font-weight: 400;">
-							<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
-							<li><i class="icon-ok-sign"></i> Valid HTML5 &amp; CSS3 Semantics</li>
-							<li><i class="icon-ok-sign"></i> 100% Open Source &amp; Customizable</li>
-							<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
-							<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
-							<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
+							<li>
+								<i class="icon-ok-sign"></i> Nhận hồ sơ: 
+								<ul>
+									<li>Đợt 1: Đến hết tháng 7 năm 2018</li>
+									<li>Đợt 2: Đến hết tháng 9 năm 2018</li>
+								</ul>
+							</li>
+							<li>
+								<i class="icon-ok-sign"></i> Nhập học
+								<ul>
+									<li>Đợt 1: Tháng 8/2018</li>
+									<li>Đợt 2: Tháng 10/2018</li>
+								</ul>
+							</li>
+							<li><i class="icon-ok-sign"></i> Địa điểm nhận hồ sơ:
+								<div style="background: url('images/world-map.png') no-repeat center center; background-size: cover; font-weight: 400;">
+									<address>
+										<strong>Phòng Đào tạo - Trường Cao đẳng nghề Việt Nam - Hàn Quốc Cà Mau</strong> <br>
+										Số 08, Mậu Thân, khóm 6, phường 9, thành phố Cà Mau, tỉnh Cà Mau
+									</address>
+									<abbr title="Số điện thoại"><strong>Điện thoại:</strong></abbr> 02903 592 101<br>
+								</div>
+							</li>
+							
 						</ul>
 
 					</div>
 
-					<div class="col_two_third topmargin nobottommargin col_last">
+					<div class="col_half topmargin nobottommargin col_last">
 
-						<img src="images/map.png" alt="Macbook Video Underlay" style="width: auto;">
-
+						<img src="images/map.png" alt="Bản đồ" style="width: auto;">
+						
 					</div>
 
 					<div class="clear"></div>
@@ -386,9 +416,9 @@
 
 				<div class="container clearfix">
 
-					<div class="col_half">
+					{{-- <div class="col_half"> --}}
 						{{-- <img src="images/logo.png" alt="Footer Logo" class="footer-logo"> --}}
-						<div>
+						{{-- <div>
 							<strong>TRƯỜNG CAO ĐẲNG NGHỀ VIỆT NAM - HÀN QUỐC CÀ MAU</strong>	
 							<div>Địa chỉ: 
 								<address>
@@ -396,10 +426,20 @@
 									Điện thoại: 0290 3 592 101
 								</address>
 							</div>
+						</div> --}}
+						<div style="background: url('images/world-map.png') no-repeat center center; background-size: cover; font-weight: 400;">
+							TRƯỜNG CAO ĐẲNG NGHỀ VIỆT NAM - HÀN QUỐC CÀ MAU
+							<address>
+								<strong>Địa chỉ:</strong><br>
+								Số 08, Mậu Thân, khóm 6, phường 9, thành phố Cà Mau, tỉnh Cà Mau
+							</address>
+							<abbr title="Số điện thoại"><strong>Điện thoại:</strong></abbr> 02903 592 101<br>
+							{{-- <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br> --}}
+							<abbr title="Website"><strong>Website:</strong></abbr> www.camauvkc.edu.vn
 						</div>
-					</div>
+					{{-- </div> --}}
 
-					<div class="col_half col_last tright">
+					{{-- <div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
 							<a href="#">Trang chủ</a>/<a href="#">Tin tức</a>/<a href="#">Thời khóa biểu</a>/<a href="#">Tuyển sinh</a>
 						</div>
@@ -444,7 +484,7 @@
 								<i class="icon-linkedin"></i>
 							</a>
 						</div> --}}
-					</div>
+					{{-- </div> --}}
 
 				</div>
 
