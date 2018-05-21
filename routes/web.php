@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.admin');
 })->name('home');
 
 Route::get('/selecting', function () {
     return view('selecting');
 })->name('selecting');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
