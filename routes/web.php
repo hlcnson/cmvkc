@@ -12,8 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.admin');
+    return view('home');
 })->name('home');
+
+Route::get('/user/list', function () {
+    return view('backend.user.list');
+})->name('user.list');
+
+Route::get('/user/create', function () {
+    return view('backend.user.create');
+})->name('user.create');
 
 Route::get('/selecting', function () {
     return view('selecting');
