@@ -16,7 +16,12 @@
             {{-- End User profile image --}}
             {{-- User profile text --}}
             <div class="profile-text">
-                <h5>Markarn Doe</h5>
+                <h5>{{Auth::user()->name}}</h5>
+                <h6>
+                    @can('Quản trị hệ thống')
+                        Quản trị
+                    @endcan
+                </h6>
                 <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
                     <i class="mdi mdi-settings"></i>
                 </a>
@@ -57,6 +62,7 @@
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="#">Danh sách</a></li>
                         <li><a href="#">Thêm người dùng</a></li>
+                        <li><a href="{{route('role.index')}}">Vai trò người dùng</a></li>
                         <li><a href="#">Thêm vai trò</a></li>
                     </ul>
                 </li>

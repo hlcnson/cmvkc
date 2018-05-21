@@ -107,5 +107,7 @@
     <!-- Style switcher -->
     <!-- ============================================================== -->
     <script src="{{asset('backend/plugins/styleswitcher/jQuery.style.switcher.js')}}"></script>
+
+    @yield('script')
 </body>
 </html>
