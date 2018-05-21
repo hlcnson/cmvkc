@@ -12,12 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    if (\Auth::check()) {
+        return view('home');
+    } else {
+        return view('auth.login');
+    }
+    
 })->name('home');
 
-Route::get('/users', function () {
-    return view('backend.users');
-})->name('users');
+Route::get('/user/list', function () {
+    return view('backend.user.list');
+})->name('user.list');
+
+Route::get('/user/create', function () {
+    return view('backend.user.create');
+})->name('user.create');
 
 Route::get('/selecting', function () {
     return view('selecting');

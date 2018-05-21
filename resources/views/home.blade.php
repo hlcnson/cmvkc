@@ -1,7 +1,11 @@
+{{-- Sử dụng giao diện backend --}}
 @extends('layouts.backend')
 
 @section('content')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6abc638619a38cc14d3a12211b56b6197b268986
 {{-- Bread crumb and right sidebar toggle  --}}
 <div class="row page-titles">
     <div class="col-md-5 align-self-center">
@@ -17,6 +21,10 @@
 </div>
 {{--  End Bread crumb and right sidebar toggle  --}}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6abc638619a38cc14d3a12211b56b6197b268986
 {{--  Container fluid   --}}
 <div class="container-fluid">
     {{--  Start Page Content  --}}
@@ -71,7 +79,11 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         
+=======
+        <!-- Column -->
+>>>>>>> 6abc638619a38cc14d3a12211b56b6197b268986
         <!-- Column -->
         <div class="card">
             <div class="card-body">
@@ -91,7 +103,10 @@
     </div>
 </div>
 {{--  End Container fluid   --}}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6abc638619a38cc14d3a12211b56b6197b268986
 @endsection
 
 
