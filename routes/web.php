@@ -12,7 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    if (\Auth::check()) {
+        return view('home');
+    } else {
+        return view('auth.login');
+    }
+    
 })->name('home');
 
 Route::get('/user/list', function () {
