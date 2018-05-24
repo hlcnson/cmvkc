@@ -23,6 +23,7 @@ class UsersTableSeeder extends Seeder
             'api_token' => bin2hex(openssl_random_pseudo_bytes(30))
         ]);
 
-        $user->givePermissionTo(Config::get('custom.administrativePermissionName'));
+        // $user->givePermissionTo(Config::get('custom.administrativePermissionName'));
+        $user->assignRole(Config::get('custom.superAdministratorRoleName'));
     }
 }

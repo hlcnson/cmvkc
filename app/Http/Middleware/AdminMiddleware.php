@@ -23,8 +23,7 @@ class AdminMiddleware
 
         if ($numOfUser > 0) {   // DB đã có ít nhất 1 user
             // Nếu user có quyền quản trị hệ thống
-            if (Auth::user()->hasPermissionTo(\Config::get('custom.superAdministratorRoleName')) ||
-                Auth::user()->name == 'Administrator') //User has this permission
+            if (Auth::user()->hasRole(\Config::get('custom.superAdministratorRoleName'))) //User has this permission
             {
                 return $next($request);
             } 

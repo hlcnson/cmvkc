@@ -19,13 +19,13 @@ class RolesAndPermissionsSeeder extends Seeder
         app()['cache']->forget('spatie.permission.cache');
         
         // Tạo permission
-        Permission::create(['name' => Config::get('custom.superAdministratorRoleName')]);
+        Permission::create(['name' => Config::get('custom.administrativePermissionName')]);
         // Permission::create(['name' => 'delete articles']);
         // Permission::create(['name' => 'publish articles']);
         // Permission::create(['name' => 'unpublish articles']);
 
         // Tạo role và gán permission
-        $role = Role::create(['name' => 'Siêu quản trị']);
+        $role = Role::create(['name' => Config::get('custom.superAdministratorRoleName')]);
         $role->givePermissionTo(Permission::all());
 
         // $role = Role::create(['name' => 'moderator']);

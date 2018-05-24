@@ -26,7 +26,7 @@ class LoginController extends Controller
      * @var string
      */
     // Đăng nhập xong sẽ điều hướng về trang chủ
-    protected $redirectTo = '/';
+    protected $redirectTo = '/manage';
 
     /**
      * Create a new controller instance.
